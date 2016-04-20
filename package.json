@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "Owl",
+  "description": "A socket.io / bootstrap chat implementation",
+  "repository": "https://github.com/pieterdeschepper/Owl",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "scripts": {
+    "install": "bower install && cd app/bower_components/bootstrap && npm install"
+  }
+}
